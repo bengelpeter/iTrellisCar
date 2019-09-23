@@ -1,0 +1,14 @@
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\iTrellisCarUnitTest.deps.json
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\iTrellisCarUnitTest.runtimeconfig.json
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\iTrellisCarUnitTest.runtimeconfig.dev.json
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\iTrellisCarUnitTest.dll
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\bin\Debug\netcoreapp2.2\iTrellisCarUnitTest.pdb
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.csprojAssemblyReference.cache
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.AssemblyInfoInputs.cache
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.AssemblyInfo.cs
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.dll
+C:\Users\Peter Bengel\OneDrive\iTrellisCar\iTrellisCarUnitTest\obj\Debug\netcoreapp2.2\iTrellisCarUnitTest.pdb

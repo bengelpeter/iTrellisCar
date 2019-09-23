@@ -1,0 +1,119 @@
+
+<div class="container">
+  <h1>Car Dealership</h1>
+
+  <p>Pick, Click, and Get it Quick</p>
+  <p>Use the search parameters to find the car of your future!</p>
+
+  <form #myform="ngForm" (ngSubmit)="onSubmit(myform)" >
+
+   
+    <div class="row">
+      <div class="col-md-3">
+        <label for="color">Car Color:</label>
+        <select id="color" name="color" class="form-control" ngModel>
+          <option value="All" selected>All</option>
+          <option value="White">White</option>
+          <option value="Gray">Gray</option>
+          <option value="Silver">Silver</option>
+          <option value="Black">Black</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="Sun">Sun Roof:</label>
+        <select id="sun" name="sun" class="form-control" ngModel>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="four">4 Wheel Drive:</label>
+        <select id="four" name="four" class="form-control" ngModel>
+          <option>All</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="low">Low Miles:</label>
+        <select id="low" name="low" class="form-control" ngModel>
+          <option>All</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <label for="power">Power Windows:</label>
+        <select id="power" name="power" class="form-control" ngModel>
+          <option>All</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+
+        <label for="navigation">Navigation:</label>
+        <select id="navigation" name="navigation" class="form-control" ngModel>
+          <option>All</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+
+        <label for="heated">Heated Seats:</label>
+        <select id="heated" name="heated" class="form-control" ngModel>
+          <option>All</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+    </div>
+
+    <br />
+    <input type="submit" class="btn btn-primary" />
+  </form>
+
+  <p *ngIf="!Cars"><em>Loading...</em></p>
+
+</div>
+
+
+<br />
+
+<table class='table table-striped' *ngIf="Cars">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Make</th>
+      <th>Year</th>
+      <th>Color</th>
+      <th>Price</th>
+      <th>Sun Roof</th>
+      <th>Four Wheel Drive</th>
+      <th>Low Miles</th>
+      <th>Power Windows</th>
+      <th>Navigation</th>
+      <th>Heated Seats</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of Cars">
+      <td>{{ car._id }}</td>
+      <td>{{ car.make }}</td>
+      <td>{{ car.year }}</td>
+      <td>{{ car.color }}</td>
+      <td>{{ car.price }}</td>
+      <td>{{ car.hasSunroof }}</td>
+      <td>{{ car.isFourWheelDrive }}</td>
+      <td>{{ car.hasLowMiles }}</td>
+      <td>{{ car.hasPowerWindows }}</td>
+      <td>{{ car.hasNavigation }}</td>
+      <td>{{ car.hasHeatedSeats }}</td>
+    </tr>
+  </tbody>
+</table>
