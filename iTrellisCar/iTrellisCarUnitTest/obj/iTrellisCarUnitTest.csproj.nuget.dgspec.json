@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter Bengel\\OneDrive\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj": {}
+    "C:\\Users\\Peter Bengel\\source\\repos\\bengelpeter\\iTrellisCar\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter Bengel\\OneDrive\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj": {
+    "C:\\Users\\Peter Bengel\\source\\repos\\bengelpeter\\iTrellisCar\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter Bengel\\OneDrive\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Peter Bengel\\source\\repos\\bengelpeter\\iTrellisCar\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj",
         "projectName": "iTrellisCarUnitTest",
-        "projectPath": "C:\\Users\\Peter Bengel\\OneDrive\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj",
+        "projectPath": "C:\\Users\\Peter Bengel\\source\\repos\\bengelpeter\\iTrellisCar\\iTrellisCar\\iTrellisCarUnitTest\\iTrellisCarUnitTest.csproj",
         "packagesPath": "C:\\Users\\Peter Bengel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peter Bengel\\OneDrive\\iTrellisCar\\iTrellisCarUnitTest\\obj\\",
+        "outputPath": "C:\\Users\\Peter Bengel\\source\\repos\\bengelpeter\\iTrellisCar\\iTrellisCar\\iTrellisCarUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

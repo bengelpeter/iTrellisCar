@@ -17,5 +17,6 @@ namespace iTrellisCarUnitTest.Models
         public bool hasPowerWindows { get; set; }
         public bool hasNavigation { get; set; }
         public bool hasHeatedSeats { get; set; }
+        public bool isAutomatic { get; set; }
     }
 }

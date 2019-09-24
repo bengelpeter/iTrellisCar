@@ -11,7 +11,8 @@
     "hasLowMiles": true,
     "hasPowerWindows": false,
     "hasNavigation": true,
-    "hasHeatedSeats": false
+    "hasHeatedSeats": false,
+    "isAutomatic":  true
 
   },
   {
@@ -25,7 +26,8 @@
     "hasLowMiles": false,
     "hasPowerWindows": true,
     "hasNavigation": false,
-    "hasHeatedSeats": true
+    "hasHeatedSeats": true,
+    "isAutomatic": true
   },
   {
     "_id": "59d2698c6f1dc2cbec89c413",
@@ -38,7 +40,8 @@
     "hasLowMiles": false,
     "hasPowerWindows": true,
     "hasNavigation": true,
-    "hasHeatedSeats": false
+    "hasHeatedSeats": false,
+    "isAutomatic": false
   },
   {
     "_id": "59d2698c340f2728382c0a73",
@@ -51,7 +54,8 @@
     "hasLowMiles": true,
     "hasPowerWindows": true,
     "hasNavigation": false,
-    "hasHeatedSeats": true
+    "hasHeatedSeats": true,
+    "isAutomatic": true
   },
   {
     "_id": "59d2698cba9b82c2347cd13a",
@@ -64,7 +68,8 @@
     "hasLowMiles": false,
     "hasPowerWindows": false,
     "hasNavigation": true,
-    "hasHeatedSeats": true
+    "hasHeatedSeats": true,
+    "isAutomatic": false
   },
   {
     "_id": "59d2698ce2e7eeeb4f109001",
@@ -77,7 +82,8 @@
     "hasLowMiles": true,
     "hasPowerWindows": true,
     "hasNavigation": true,
-    "hasHeatedSeats": true
+    "hasHeatedSeats": true,
+    "isAutomatic": false
   },
   {
     "_id": "59d2698cd6a3b8f0dd994c9d",
@@ -90,7 +96,8 @@
     "hasLowMiles": true,
     "hasPowerWindows": true,
     "hasNavigation": false,
-    "hasHeatedSeats": false
+    "hasHeatedSeats": false,
+    "isAutomatic": true
   },
   {
     "_id": "59d2698c86ab54cee8acdc7b",
@@ -103,7 +110,8 @@
     "hasLowMiles": true,
     "hasPowerWindows": false,
     "hasNavigation": false,
-    "hasHeatedSeats": false
+    "hasHeatedSeats": false,
+    "isAutomatic": false
   },
   {
     "_id": "59d2698cda9e8d39476c678a",
@@ -116,6 +124,7 @@
     "hasLowMiles": true,
     "hasPowerWindows": false,
     "hasNavigation": false,
-    "hasHeatedSeats": true
+    "hasHeatedSeats": true,
+    "isAutomatic": true
   }
 ]

@@ -1,18 +1,21 @@
 
+<title>Car</title>
+
 <div class="container">
   <h1>Car Dealership</h1>
 
   <p>Pick, Click, and Get it Quick</p>
   <p>Use the search parameters to find the car of your future!</p>
 
-  <form #myform="ngForm" (ngSubmit)="onSubmit(myform)" >
+  <form #myform="ngForm" (ngSubmit)="onSubmit(myform)">
 
-   
+
     <div class="row">
       <div class="col-md-3">
         <label for="color">Car Color:</label>
         <select id="color" name="color" class="form-control" ngModel>
           <option value="All" selected>All</option>
+          <option value="Red">Red</option>
           <option value="White">White</option>
           <option value="Gray">Gray</option>
           <option value="Silver">Silver</option>
@@ -30,17 +33,17 @@
       <div class="col-md-3">
         <label for="four">4 Wheel Drive:</label>
         <select id="four" name="four" class="form-control" ngModel>
-          <option>All</option>
-          <option>Yes</option>
-          <option>No</option>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
         </select>
       </div>
       <div class="col-md-3">
         <label for="low">Low Miles:</label>
         <select id="low" name="low" class="form-control" ngModel>
-          <option>All</option>
-          <option>Yes</option>
-          <option>No</option>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
         </select>
       </div>
     </div>
@@ -49,27 +52,36 @@
       <div class="col-md-3">
         <label for="power">Power Windows:</label>
         <select id="power" name="power" class="form-control" ngModel>
-          <option>All</option>
-          <option>Yes</option>
-          <option>No</option>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
         </select>
       </div>
       <div class="col-md-3">
 
         <label for="navigation">Navigation:</label>
         <select id="navigation" name="navigation" class="form-control" ngModel>
-          <option>All</option>
-          <option>Yes</option>
-          <option>No</option>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
         </select>
       </div>
       <div class="col-md-3">
 
         <label for="heated">Heated Seats:</label>
         <select id="heated" name="heated" class="form-control" ngModel>
-          <option>All</option>
-          <option>Yes</option>
-          <option>No</option>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+
+        <label for="heated">Automatic:</label>
+        <select id="auto" name="auto" class="form-control" ngModel>
+          <option value="All">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
         </select>
       </div>
     </div>
@@ -99,6 +111,7 @@
       <th>Power Windows</th>
       <th>Navigation</th>
       <th>Heated Seats</th>
+      <th>Automatic Transmission</th>
     </tr>
   </thead>
   <tbody>
@@ -114,6 +127,7 @@
       <td>{{ car.hasPowerWindows }}</td>
       <td>{{ car.hasNavigation }}</td>
       <td>{{ car.hasHeatedSeats }}</td>
+      <td>{{ car.isAutomatic }}</td>
     </tr>
   </tbody>
 </table>

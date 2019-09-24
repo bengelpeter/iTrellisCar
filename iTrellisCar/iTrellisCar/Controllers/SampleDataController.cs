@@ -35,11 +35,12 @@ namespace iTrellisCar.Controllers
         [HttpGet("[action]")]
         public IActionResult ReturnCar(string color = null, string hasSunroof = null
             , string isFourWheelDrive = null, string hasLowMiles = null, string hasPowerWindows = null
-            , string hasNavigation = null, string hasHeatedSeats = null)
+            , string hasNavigation = null, string hasHeatedSeats = null, string isAutomatic = null)
         {
 
             try
             {
+                //Get the wwwroot filepath
                 string webRootPath = _env.WebRootPath;
                 var json = "";
                 //Gets the Json File From wwwroot
@@ -54,7 +55,7 @@ namespace iTrellisCar.Controllers
                 //Car List Model
                 var cars = jsonArray.ToObject<List<Car>>();
 
-                //Filter clauses
+                //Car Filters from Angular
                 if (color != null && color != "All")
                 {
                     cars = cars.Where(r => r.color == color).ToList();
@@ -83,8 +84,12 @@ namespace iTrellisCar.Controllers
                 {
                     cars = cars.Where(r => r.hasHeatedSeats == (hasHeatedSeats == "Yes" ? true : false)).ToList();
                 }
+                if (isAutomatic != null && isAutomatic != "All")
+                {
+                    cars = cars.Where(r => r.isAutomatic == (isAutomatic == "Yes" ? true : false)).ToList();
+                }
 
-                
+
                 return Ok(cars);
             }
             catch (Exception excError)

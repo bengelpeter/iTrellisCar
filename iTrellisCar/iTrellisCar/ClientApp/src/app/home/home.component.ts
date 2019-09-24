@@ -25,15 +25,7 @@ export class HomeComponent  {
   }
 
   ngOnInit() {
-    this.regForm = new FormGroup({
-      color: new FormControl(),
-      sun: new FormControl(),
-      four: new FormControl(),
-      low: new FormControl(),
-      power: new FormControl(),
-      navigation: new FormControl(),
-      heated: new FormControl()
-    })
+
   }
 
 
@@ -44,7 +36,9 @@ export class HomeComponent  {
       + "&hasLowMiles=" + form.value.low
       + "&hasPowerWindows=" + form.value.power
       + "&hasNavigation=" + form.value.navigation
-      + "&hasHeatedSeats=" + form.value.heated).subscribe(result => {
+      + "&hasHeatedSeats=" + form.value.heated
+      + "&isAutomatic=" + form.value.auto
+    ).subscribe(result => {
       this.Cars = result as Car[];
     }, error => console.error(error));
 
@@ -64,4 +58,5 @@ interface Car {
   hasPowerWindows: boolean;
   hasNavigation: boolean;
   hasHeatedSeats: boolean;
+  isAutomatic: boolean;
 }
